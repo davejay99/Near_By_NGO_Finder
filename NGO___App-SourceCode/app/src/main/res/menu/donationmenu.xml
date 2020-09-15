@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/update"
+        android:icon="@drawable/arrowswhite"
+        android:title="Update Page"
+        app:showAsAction="ifRoom" />
+    <item
+        android:icon="@drawable/ic_sort"
+        android:title="Item"
+        app:showAsAction="ifRoom">
+
+        <menu>
+            <item
+                android:id="@+id/sortByAmount"
+                android:title="Sort by Amount" />
+
+            <item
+                android:id="@+id/sortByDate"
+                android:title="Sort by Date" />
+        </menu>
+    </item>
+</menu>

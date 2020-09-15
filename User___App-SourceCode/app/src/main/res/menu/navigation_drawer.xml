@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/navNearByNgo"
+            android:icon="@drawable/location_city"
+            android:title="Find Near By NGO" />
+
+        <item
+            android:id="@+id/navDonationHistory"
+            android:icon="@drawable/ic_donation_history"
+            android:title="Donation History" />
+
+        <item
+            android:id="@+id/navSubscribedNgo"
+            android:icon="@drawable/ic_subscribe_ngo"
+            android:title="Subscribed NGO" />
+
+        <item
+            android:id="@+id/appointlist"
+            android:icon="@drawable/event_note"
+            android:title="Appointments" />
+
+        <item
+            android:id="@+id/navSignOut"
+            android:icon="@drawable/ic_sign_out"
+            android:title="Sign Out" />
+
+    </group>
+
+</menu>
